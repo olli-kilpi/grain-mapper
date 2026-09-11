@@ -1,5 +1,4 @@
-
-export type bezierPoint = {
+export type BezierPoint = {
   x: number;
   y: number;
 };
@@ -9,10 +8,11 @@ export interface GrainEffectSettings {
   grainSize: number;
   threshold: number;
   jitter: number;
+  seed: number;
   gradientRotation: number;
   gradientDarkness: number;
-  gradientP1: bezierPoint;
-  gradientP2: bezierPoint;
+  gradientP1: BezierPoint;
+  gradientP2: BezierPoint;
   fileName: string;
   scale: number;
   addBackground: boolean;

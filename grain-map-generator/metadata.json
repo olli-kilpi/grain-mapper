@@ -1,5 +1,0 @@
-{
-  "name": "Grain Map Generator",
-  "description": "An advanced tool for visual effects artists to create and apply pixelated, noisy grain effects. Upload a 'Grain Map' or generate one from scratch using a cubic-Bézier gradient editor, tweak parameters with mathematical precision, and export high-quality, transparent PNGs.",
-  "requestFramePermissions": []
-}
